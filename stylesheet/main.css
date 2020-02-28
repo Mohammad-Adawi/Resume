@@ -19,7 +19,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: rgb(120, 125, 131); */
     background-image: url('../images/img1.jpeg');
     background-position: center;
     background-repeat: no-repeat;
@@ -35,8 +34,7 @@ color: black;
         width: 50px;
        height: 50px;
        position: sticky;
-       /* left: 700px;
-       top: 185px; */
+      
    
 }
 nav ul {
