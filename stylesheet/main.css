@@ -1,8 +1,14 @@
 .fab.fa-github{
-    font-size: 50px;
+    font-size: 65px;
     color: rgb(236, 192, 78);
-    
+        
 }
+
+.far.fa-hand-point-down{
+    font-size: 45px;
+
+}
+
 div {
     float: right;
     }
@@ -23,12 +29,6 @@ body {
 .background{
 top: 100px;
 color: black;
-
-/* background-color: mediumblue; */
-/* text-align: center; */
-/* width: auto; */
-/* padding: auto; */
-/* margin: auto; */
 }
 
 .float{
@@ -44,8 +44,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
-    
+     
 }
 
 nav ul li  {
@@ -67,7 +66,6 @@ nav ul li  {
     z-index: 1;
     transition: 0.5s;
     margin: 1em;
-   
     
 }
 nav ul li a{
