@@ -4,9 +4,18 @@
         
 }
 
-.far.fa-hand-point-down{
-    font-size: 45px;
-
+.fab.fa-facebook-square{
+    font-size: 40px;
+    color: darkblue;
+    
+}
+.fab.fa-twitter-square{
+    font-size: 40px;
+    color: cornflowerblue;
+}
+.fab.fa-instagram-square{
+    font-size: 40px;
+    color: firebrick;
 }
 
 div {
