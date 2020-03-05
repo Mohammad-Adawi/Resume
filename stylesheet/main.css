@@ -17,6 +17,10 @@
     font-size: 40px;
     color: firebrick;
 }
+.fab.fa-snapchat-square{
+    font-size: 40px;
+    color: rgb(214, 214, 16);
+}
 
 div {
     float: right;
