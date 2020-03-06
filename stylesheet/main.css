@@ -1,25 +1,30 @@
 .fab.fa-github{
-    font-size: 65px;
+    font-size: 40px;
     color: rgb(236, 192, 78);
-        
-}
+    /* position:relative;  
+    left: 200px;
+    top: 55px; */ 
+} 
 
 .fab.fa-facebook-square{
     font-size: 40px;
     color: darkblue;
-    
+    position:relative;
 }
 .fab.fa-twitter-square{
     font-size: 40px;
     color: cornflowerblue;
+    position:relative;
 }
 .fab.fa-instagram-square{
     font-size: 40px;
     color: firebrick;
+    position:relative;
 }
 .fab.fa-snapchat-square{
     font-size: 40px;
     color: rgb(214, 214, 16);
+    position:relative;
 }
 
 div {
