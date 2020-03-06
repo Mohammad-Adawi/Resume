@@ -1,6 +1,6 @@
 .fab.fa-github{
     font-size: 40px;
-    color: rgb(236, 192, 78);
+    color: rgb(26, 24, 20);
     /* position:relative;  
     left: 200px;
     top: 55px; */ 
@@ -27,9 +27,9 @@
     position:relative;
 }
 
-div {
+/* div {
     float: right;
-    }
+    } */
 
 body {
     margin: 0;
