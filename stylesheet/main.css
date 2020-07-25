@@ -1,17 +1,35 @@
 .fab.fa-github{
-    font-size: 65px;
-    color: rgb(236, 192, 78);
-        
+    font-size: 40px;
+    color: rgb(26, 24, 20);
+    /* position:relative;  
+    left: 200px;
+    top: 55px; */ 
+} 
+
+.fab.fa-facebook-square{
+    font-size: 40px;
+    color: darkblue;
+    position:relative;
+}
+.fab.fa-twitter-square{
+    font-size: 40px;
+    color: cornflowerblue;
+    position:relative;
+}
+.fab.fa-instagram-square{
+    font-size: 40px;
+    color: firebrick;
+    position:relative;
+}
+.fab.fa-snapchat-square{
+    font-size: 40px;
+    color: rgb(214, 214, 16);
+    position:relative;
 }
 
-.far.fa-hand-point-down{
-    font-size: 45px;
-
-}
-
-div {
+/* div {
     float: right;
-    }
+    } */
 
 body {
     margin: 0;
@@ -19,7 +37,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: rgb(120, 125, 131); */
     background-image: url('../images/img1.jpeg');
     background-position: center;
     background-repeat: no-repeat;
@@ -35,8 +52,7 @@ color: black;
         width: 50px;
        height: 50px;
        position: sticky;
-       /* left: 700px;
-       top: 185px; */
+      
    
 }
 nav ul {
@@ -48,10 +64,10 @@ nav ul {
 }
 
 nav ul li  {
-    --c: rgb(218, 165, 32);
-    color: var(--c);
+   
+    color: rgb(218, 165, 32);
     font-size: 16px;
-    border: 0.3em solid var(--c) ;
+    border: 0.3em solid rgb(218, 165, 32);
     border-radius: 0.5em;
     width: 12em;
     height: 3em;
@@ -80,12 +96,12 @@ nav ul li span {
     position: absolute;
     width: 25%;
     height: 100%;
-    background-color: var(--c);
+    background-color: rgb(218, 165, 32);
     transform: translateY(150%);
     border-radius: 50%;
-    left: calc((var(--n) - 1) * 25%);
+    left: calc(2 * 25%);
     transition: 0.5s;
-    transition-delay: calc((var(--n) - 1) * 0.1s);
+    /* transition-delay: calc(2 * 0.1s); */
     z-index: -1;
 }
 
@@ -95,20 +111,4 @@ nav ul li:hover {
 
 nav ul li:hover span {
     transform: translateY(0) scale(2);
-}
-
-nav ul li span:nth-child(1) {
-    --n: 1;
-}
-
-nav ul li span:nth-child(2) {
-    --n: 2;
-}
-
-nav ul li span:nth-child(3) {
-    --n: 3;
-}
-
-nav ul li span:nth-child(4) {
-    --n: 4;
 }
